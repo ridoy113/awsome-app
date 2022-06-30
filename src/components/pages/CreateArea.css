@@ -30,3 +30,29 @@ form textarea {
     font-size: 1.3rem;
     resize: none;
 }
+
+form button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 18px;
+    bottom: -18px;
+    background: #FFD21E;
+    border: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #478bfa;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: white;
+    border: 2px solid #FFD21E;
+    color: #055ff9;
+}
