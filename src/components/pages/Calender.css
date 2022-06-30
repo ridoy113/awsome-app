@@ -1,0 +1,15 @@
+.calender__info {
+    align-items: center;
+    padding: 100px;
+    padding-top: 50px;
+}
+
+.calender__info h1 {
+    text-align: center;
+    color: rgb(120, 117, 117);
+}
+
+.calender__info p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

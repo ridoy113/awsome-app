@@ -1,5 +1,7 @@
 import React from 'react';
 import './Header.css'
+import { Link } from "react-router-dom";
+
 
 
 
@@ -9,6 +11,12 @@ function Header(props) {
         <div className='header'>
             <div className='logo'>{logo}</div>
             <h3 className='header__name'>Awesome</h3>
+
+            <div className='nav__info'>
+                <Link className='text' to="/">To-Do</Link>
+                <Link className='text' to="note">Completed Tasks</Link>
+                <Link className='text' to="calendar">Calendar</Link>
+            </div>
         </div>
     );
 }

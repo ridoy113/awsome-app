@@ -1,0 +1,12 @@
+.footer__info {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:
+        #0f172a;
+    color: rgb(247, 226, 226);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
