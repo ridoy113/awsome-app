@@ -1,0 +1,32 @@
+.from__info {
+    margin-top: 5rem;
+}
+
+form {
+    position: relative;
+    width: 600px;
+    padding: 10px;
+    margin: 32px auto 50px auto;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 1px 7px rgba(128, 128, 128);
+}
+
+form input {
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 1.3rem;
+    resize: none;
+}
+
+form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    outline: none;
+    font-size: 1.3rem;
+    resize: none;
+}
